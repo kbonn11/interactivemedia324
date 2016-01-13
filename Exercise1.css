@@ -1,0 +1,9 @@
+.container {
+	position: static;
+}
+.box {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	color: red;
+}
