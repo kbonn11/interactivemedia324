@@ -1,0 +1,25 @@
+/* base */
+#words {
+	font-family: Helvetica;
+	font-size: 500px;
+	color: white;
+}
+
+body {
+	background: url('corgi.jpg')
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+	#words { font-size: 300px; }
+}
+
+@media screen and (max-width: 768px) {
+	#words { font-size: 160px; }
+}
+
+@media screen and (max-width: 600px) {
+	#words { font-size: 100px; color: white; }
+	body { background: url('corgitwo.jpg') }
+}
