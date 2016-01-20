@@ -1,0 +1,49 @@
+body {
+	background-color: #6E6E6E;
+}
+
+.title {
+	position: static;
+	height: 150px;
+}
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+color: #FF8000;
+margin-left: 26%;
+font-size: 70px;
+}
+
+h2 {
+font-family: 'Maven Pro', sans-serif;
+color: #81DAF5;
+margin-left: 26%;
+font-size: 30px;
+margin-top: -50px;
+}
+
+.text {
+	position: static;
+}
+
+.box {
+	float: left;
+	height: 200px;
+	width: 500px;
+	background-color: black;
+	display: block;
+	padding: 5px;
+	margin: 10px;
+	margin-left: 20px;
+}
+
+.one {
+	background-color: white;
+	font-size: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+
+
+
+
