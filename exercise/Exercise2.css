@@ -6,7 +6,7 @@
 }
 
 body {
-	background: url('corgi.jpg')
+	background: url('images/corgi.jpg')
 }
 
 /* Media Queries */
@@ -21,15 +21,15 @@ body {
 
 @media screen and (max-width: 600px) {
 	#words { font-size: 100px; color: white; }
-	body { background: url('corgitwo.jpg') }
+	body { background: url('images/corgitwo.jpg') }
 }
 
 @media screen and (max-width: 480px) {
 	#words { font-size: 100px; color: black; }
-	body { background: url('corgithree.jpg') }
+	body { background: url('images/corgithree.jpg') }
 }
 
 @media screen and (max-width: 320px) {
 	#words { font-size: 100px; color: black; }
-	body { background: url('bone.jpg') }
+	body { background: url('images/bone.jpg') }
 }
