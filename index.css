@@ -1,2 +1,27 @@
+body {
+	background-color: #F7F2E0;
+}
 
+a {
+	text-decoration: none;
+	color: purple;
+
+}
+
+.line1 {
+	border-top: 2px solid purple;
+	width: 300px;
+	margin: -20px;
+	padding: 10px;
+	
+}
+
+h1 {
+	font-family: Monaco;
+
+}
+
+a:hover {
+	background-color: #00ffff;
+}
 
