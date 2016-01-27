@@ -1,0 +1,68 @@
+body {
+	background-color: black;
+}
+
+.top {
+font-family: 'Montserrat', sans-serif;
+color: #FF8000;
+font-size: 260px;
+
+}
+
+.sub {
+font-family: 'Maven Pro', sans-serif;
+color: #81DAF5;
+font-size: 260px;
+margin-top: -50px;
+text-align: left;
+
+
+}
+
+.text {
+	position: static;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 1430px) {
+	.top {font-size: 200px;}
+	.sub {font-size: 200px;}
+	
+}
+@media screen and (max-width: 1150px) {
+	.top {font-size: 180px;}
+	.sub {font-size: 180px;}
+}
+
+@media screen and (max-width: 1024px) {
+	.top {font-size: 140px;}
+	.sub {font-size: 140px;}
+}
+
+@media screen and (max-width: 768px) {
+	.top {font-size: 110px;}
+	.sub {font-size: 110px;}
+}
+
+@media screen and (max-width: 600px) {
+	.top {font-size: 80px;}
+	.sub {font-size: 80px; margin-top: 10px;}
+}
+
+@media screen and (max-width: 480px) {
+	.top {font-size: 60px; line-height: 100px;}
+	.sub {font-size: 60px; line-height: 100px;}
+}
+
+@media screen and (max-width: 320px) {
+	.top {font-size: 30px; line-height: 100px;}
+	.sub {font-size: 30px; line-height: 100px;}
+	
+
+}
